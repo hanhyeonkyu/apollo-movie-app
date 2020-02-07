@@ -16,6 +16,15 @@ const Poster = styled.div`
   width: 100%;
   background-size: cover;
   background-position: center;
+  &:visited {
+    width: 102%;
+  }
+  &:hover {
+    width: 102%;
+  }
+  &:active {
+    width: 102%;
+  }
 `;
 
 export default ({ id, bg }) => (
